@@ -15,4 +15,4 @@ rel_lang.py
 Ad hoc "dictionary" based analysis of partisan differences in religious language in SotS addresses. Produces a .csv of the count and normalized frequency of religious language for each speech in the dataset. 
 
 rel_lang_poisson.R
-Runs Poisson-based regressional analyses (count models
+Runs Poisson-based regressional analyses (count, negative binomial, zero-inflated Poisson, zero-inflated negative binomial, hurdle, and random-effects Poisson models) to predict the count of anti-LGBTQ bills with religious signals in governor state of the state addresses (with appropriate controls for institutions and public opinion).
